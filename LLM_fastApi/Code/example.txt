@@ -1,0 +1,66 @@
+"""
+    柱状图：
+option = {
+  xAxis: {
+    data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+  },
+  yAxis: {},
+  series: [
+    {
+      type: 'bar',
+      data: [23, 24, 18, 25, 27, 28, 25]
+    }
+  ]
+};
+    折线图：
+option = {
+  xAxis: {
+    type: 'category',
+    data: ['A', 'B', 'C']
+  },
+  yAxis: {
+    type: 'value'
+  },
+  series: [
+    {
+      data: [120, 200, 150],
+      type: 'line'
+    }
+  ]
+};
+    饼图：
+option = {
+  series: [
+    {
+      type: 'pie',
+      data: [
+        {
+          value: 335,
+          name: '直接访问'
+        },
+        {
+          value: 234,
+          name: '联盟广告'
+        },
+        {
+          value: 1548,
+          name: '搜索引擎'
+        }
+      ]
+    }
+  ]
+};
+    散点图：
+option = {
+  xAxis: {
+    data: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+  },
+  yAxis: {},
+  series: [
+    {
+      type: 'scatter',
+      data: [220, 182, 191, 234, 290, 330, 310]
+    }
+  ]
+};
+"""
