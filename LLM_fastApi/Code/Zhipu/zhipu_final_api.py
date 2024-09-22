@@ -488,5 +488,5 @@ def chat_with_llm():
 
 #   如果当前模块是作为主入口来运行则条件成立
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='192.168.227.45', port=5000, debug=True)
 
